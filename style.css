@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+#cat-big {
+    background-image: url('c1-assets/cat-big.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 500px;
+    width: 100%;
+}
+.poppins {
+    font-family: "ABeeZee", serif;
+}
+.dogs-shop {
+    border-radius: 10px;
+    height: 370px;
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    background-color: #F9DF8A;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-image: url("c1-assets/cute-pet-small.png");
+}
+@media (max-width: 	768px) { 
+    .dogs-shop {
+        width: 100%;
+    }
+}
+.borderx {
+    border-radius: 20px;
+}
