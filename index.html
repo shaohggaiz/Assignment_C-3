@@ -110,8 +110,9 @@
             <h1 class="md:text-6xl text-4xl poppins font-bold leading-tight">
               Pamper Your Pet, <br />
               Because They Deserve <br />
-              the Bes
+              <span class="hello">the Bes...</span>
             </h1>
+            <h2 class="hello">welcome</h2>
             <p>
               Discover a world of treats, toys, and essentials handpicked for
               your furry friends. Shop now and make tails wag with joy!
@@ -302,8 +303,82 @@
       </section>
       <!-- section 3 -->
        <section>
-
+        <!-- main price card -->
+        <div class="w-[85%] mx-auto">
+          <h2 class="py-5 font-bold text-2xl text-center lg:text-start">Everyday Low Price</h2>
+          <!--  -->
+          <div class="md:flex items-center justify-between gap-5">
+            <!-- pet dog -->
+            <div class=" my-4  rounded-md gap-4 flex justify-between items-center bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] p-10 md:w-4/6 h-[350px]" > 
+              <div class="space-y-2">
+                <p class="text-black">Under Price</p>
+                <h4 class="text-black text-2xl font-bold">Pet Grooming Mitt</h4>
+                <p class="text-white">(Easy Hair Removal)</p>
+                <h2 class="text-3xl font-bold text-black">$7.99</h2>
+              </div>
+              <div class=" -mr-9">
+                <img class="w-[290px]" src="c1-assets/cute-dog-mid.png" alt="">
+              </div>
+            </div>
+            <!-- small dog -->
+            <div class="rounded-md flex p-10  h-[350px] bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]">
+              <div class="space-y-3">
+                <h2 class="font-bold text-2xl text-black">T-Shirt for Dogs</h2>
+                <h2 class="font-bold text-3xl text-[#FFDC26]">$7.99</h2>
+              </div>
+              <div class="">
+                <img src="c1-assets/cute-pet-small.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
        </section>
     </main>
+    
+    <article>
+      <div class="hero w-[85%] mx-auto bg-[#FFF9F4] relative top-48">
+        <div class="hero-content flex-col lg:flex-row">
+          <img
+            src="c1-assets/cute-pet-mid.png"
+            class="max-w-sm rounded-lg shadow-2xl" />
+          <div class="md:text-start text-center">
+            <h1 class="text-5xl font-bold">Get Pawsome News!</h1>
+            <p class="py-6">
+              Exclusive training tips, ticks, product deals and more.
+            </p>
+            <div class="md:w-2/3">
+              <input class="bg-white appearance-none border-2 border-white rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="email" placeholder="Enter your Email..">
+            </div>
+            <button class="btn btn-primary m-4">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <footer class="footer pt-80 pb-12 text-black bg-[#FFDC26] text-base-content p-10">
+      <div>
+        <div class="flex items-center gap-5">
+          <img src="c1-assets/logo-footer.png" alt="">
+          <h3 class="text-2xl font-bold">Browse Pets</h3>
+        </div>
+        <p class="w-80">
+          Discover a world of treats, toys, and essentials handpicked for your furry friends
+        </p>
+      </div>
+      <nav>
+        <a class="link link-hover text-[17px]">Find a pet</a>
+        <a class="link link-hover text-[17px]">Breeds</a>
+        <a class="link link-hover text-[17px]">Contact US</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Follow Us</h6>
+        <div class="grid grid-flow-col gap-4">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>
