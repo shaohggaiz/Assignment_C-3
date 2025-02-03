@@ -22,7 +22,7 @@
     background-size: contain;
     background-position: right;
     background-image: url("c1-assets/cute-pet-small.png");
-}
+} 
 @media (max-width: 	768px) { 
     .dogs-shop {
         width: 100%;
